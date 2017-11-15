@@ -246,7 +246,7 @@
 
 .footerHeading{
     font-size: 22px;
-    color: #3a3a3a;
+    color: #ffffff;
     letter-spacing: 2px;
     text-transform: uppercase;
     font-weight: 600;
@@ -254,7 +254,7 @@
 }
 .footerDesc{
     font-size: 21px;
-    color: #3a3a3a;
+    color: #ffffff;
     font-style: italic;
     font-weight: 400;
 }
@@ -266,7 +266,7 @@
     border-top-width: 5px;
 }
 .connectFooter{
-    background: #B3B3B3;
+    background: #000000;
     border-left:none;
 }
 .joinFooter{
@@ -519,4 +519,61 @@
 .serviceCommonWrapper .paraText{
     padding-left: 18%;
     padding-right: 18%;
+}
+
+
+
+.servicesList3{
+    margin-top: 20px;
+}
+.servicesList3 li{
+    display: inline-block;
+    padding: 0 30px;
+    margin-top: 50px;
+    max-width: 25%;
+    vertical-align: top;
+}
+.servicesList3 a{
+    color: #700D10;
+    display: block;
+    font-weight: 600;
+    font-size: 13px;
+    letter-spacing: 2px;
+    padding:0;
+    text-align: center;
+    text-transform: uppercase;
+    height: 50px;
+    overflow: hidden;
+}
+.descListContainer{
+    margin-bottom: 80px;
+}
+.descListContainer--last{
+    margin-bottom: 0;
+}
+.manageCapWrapper .paraText{
+    padding-left: 12%;
+    padding-right: 12%;
+    display: inline-block;
+    margin: auto;
+    margin-top: 30px;
+}
+.manageCapWrapper .heading2{
+    margin-bottom: 15px;
+}
+.redText{
+    color: #700D10;
+}
+.boldText{
+    font-weight: 600;
+}
+
+
+
+.careerBlockWrapper {
+    padding-left: 20%;
+    padding-right: 20%;
+    display: inline-block;
+    margin: auto;
+    margin-top: 30px;
 }
