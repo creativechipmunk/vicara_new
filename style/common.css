@@ -1,0 +1,522 @@
+.navbar{
+    background: rgba(236, 235, 232, 0.9);
+    border:none;
+}
+.navbar-brand img{
+    width: 100px;
+}
+.navbar-default .navbar-nav > li{
+    padding:0 20px;
+}
+.navbar-default .navbar-nav > li > a{
+    font-size: 14px;
+    color: #4a4a4a;
+    text-transform: uppercase;
+    letter-spacing: 0.6px;
+    font-weight: 600;
+    padding:25px 0;
+    position: relative;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus{
+    background-color: transparent;
+    color: #4a4a4a;
+}
+.navbar-default .navbar-nav > li.active > a:after{
+    content: '';
+    position: absolute;
+    width:100%;
+    height:1px;
+    background: #4a4a4a;
+    left: 0;
+    top: 45px;
+}
+
+
+.bannerWrapper{
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    height: 400px;
+    background-size: 100%;
+}
+.bannerWrapper:after{
+    content: '';
+    position: absolute;
+    background: rgba(0,0,0,0.4);
+    width:100%;
+    height: 100%;
+    top: 0;
+    left:0;
+    z-index: 1;
+}
+.bannerWrapper--home{
+    background: transparent url('../images/home-banner.jpeg') no-repeat;
+    height: 550px;
+    background-size: cover;
+    background-position: center;
+}
+.bannerWrapper--about{
+    background: transparent url('../images/banner/about.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.bannerContent{
+    position: relative;
+    z-index: 2;
+}
+.bannerText{
+    width: 40%;
+    color: #ffffff;
+    position: relative;
+    z-index: 2;
+    float: none;
+    display: inline-block;
+    margin: auto;
+}
+.bannerText--btm{
+    position: absolute;
+    bottom: 80px;
+    left: 0;
+    right:0;
+    margin: auto;
+}
+.bannerText p{
+    font-size: 20px;
+    line-height: 32px;
+    margin-bottom: 30px;
+}
+.bannerText a{
+    font-size: 14px;
+    letter-spacing: 0.6px;
+    color: #ffffff;
+}
+
+
+.section{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.gray-bg{
+    background: #FAF9F7;
+}
+.white-bg{
+    background: #ffffff;
+}
+.heading1{
+    font-size: 22px;
+    position: relative;
+    text-transform: uppercase;
+    color: #3a3a3a;
+    letter-spacing: 4px;
+    padding: 0 80px 30px 80px;
+    margin-bottom: 30px;
+}
+.heading1:after{
+    content: '';
+    position: absolute;
+    height: 2px;
+    background: #700D10;
+    width: 370px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.heading2{
+    font-size: 22px;
+    color: #323232;
+    font-style: italic;
+    margin-bottom: 40px;
+}
+.heading3{
+    color: #700D10;
+    display: block;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+.paraText {
+    font-size: 17px;
+    color: #4a4a4a;
+    line-height: 30px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+}
+.paraText2 {
+    font-size: 20px;
+    color: #4a4a4a;
+    line-height: 30px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+}
+
+.expertiseWrapper .paraText{
+    padding-left: 22%;
+    padding-right: 22%;
+    display: inline-block;
+    margin: auto;
+}
+.expertiseList{
+    margin-top: 70px;
+}
+.expertiseList img{
+    width: 80px;
+}
+.expertiseList li{
+    display: inline-block;
+    margin-right: 100px;
+}
+.expertiseList li:last-child{
+    margin-right: 0;
+}
+.expertiseList span{
+    color: #700D10;
+    display: block;
+    font-size: 16px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-top: 30px;
+}
+
+.servicesList{
+    margin-top: 20px;
+}
+.servicesList li{
+    display: inline-block;
+    padding: 0 25px;
+    width: 33%;
+    margin-top: 50px;
+    vertical-align: top;
+}
+.servicesList a{
+    color: #700D10;
+    display: block;
+    font-weight: 600;
+    font-size: 13px;
+    letter-spacing: 2px;
+    padding:0 40px;
+    text-transform: uppercase;
+    height: 50px;
+    overflow: hidden;
+}
+.servicesList p{
+    color: #4a4a4a;
+    display: block;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+.approachWrapper{
+    background: transparent url('../images/banner/approach.jpg') no-repeat;
+    background-size: 100%;
+    position: relative;
+}
+.approachWrapper:after{
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    background: rgba(255,255,255,0.7);
+    z-index: 1;
+}
+.approachWrapper .container{
+    position: relative;
+    z-index: 2;
+}
+.approachWrapper .paraText{
+    width: 70%;
+    display: inline-block;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.effectiveModelWrapper .paraText{
+    padding-left: 15%;
+    padding-right: 15%;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.footerHeading{
+    font-size: 22px;
+    color: #3a3a3a;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+.footerDesc{
+    font-size: 21px;
+    color: #3a3a3a;
+    font-style: italic;
+    font-weight: 400;
+}
+.footerHalf{
+    padding: 50px 0;
+    height: 282px;
+    border: solid 2.5px #ffffff;
+    border-bottom-width: 5px;
+    border-top-width: 5px;
+}
+.connectFooter{
+    background: #B3B3B3;
+    border-left:none;
+}
+.joinFooter{
+    background: #700D10;
+    border-right:none;
+}
+.joinFooter .footerHeading,
+.joinFooter .footerDesc{
+    color: #ffffff;
+}
+.footerBtn {
+    background: #CBCBCB;
+    padding: 13px 65px;
+    text-transform: uppercase;
+    color: #3a3a3a;
+    letter-spacing: 2px;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 40px;
+    display: inline-block;
+    border-radius: 22px;
+}
+.footerSocial{
+    display: inline-block;
+    width: 50px;
+    background: #CCCCCC;
+    border-radius: 25px;
+    padding: 10px;
+    margin: 38px 10px 0 15px;
+}
+.footerCopyright{
+    background: #F9F8F6;
+    padding: 28px;
+    color: #3a3a3a;
+    font-size: 17px;
+}
+
+
+.commitmentList{
+    margin-top: 30px;
+}
+.commitmentList li{
+    display: inline-block;
+    margin-right: 100px;
+}
+.commitmentList li:last-child{
+    margin-right: 0;
+}
+.commitmentList span{
+    color: #700D10;
+    display: block;
+    font-size: 14px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-top: 30px;
+    font-weight: 600;
+}
+
+.visionWrapper .paraText{
+    padding-left: 15%;
+    padding-right: 15%;
+    margin: auto;
+    margin-top: 30px;
+}
+
+
+.engagementWrapper .paraText{
+    padding-left: 18%;
+    padding-right: 18%;
+    margin: auto;
+    margin-top: 30px;
+}
+
+
+.eng-gray-block{
+    background: #B3B3B3;
+    height: 460px;
+    margin-left: 13%;
+    margin-right: 13%;
+    margin-top: 35px;
+}
+.engagementList li{
+    display: block;
+    margin-top: 90px;
+}
+.engagementList img{
+    max-width: 300px;
+}
+.engagementList p{
+    width: 50%;
+    margin: auto;
+    margin-top: 20px;
+}
+.engagementList .paraText{
+    padding: 0;
+}
+
+
+.aboutWrapper .paraText{
+    padding-left: 15%;
+    padding-right: 15%;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.quoteWrapper{
+    background: transparent url('../images/banner/approach.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 50px 0;
+    position: relative;
+}
+.quoteWrapper .paraText{
+    width: 55%;
+    font-size: 20px;
+    font-style: italic;
+    margin: auto;
+    margin-bottom: 40px;
+    color: #ffffff;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+.quoteAuthor{
+    font-weight: bold;
+    font-size: 13px;
+    letter-spacing: 2px;
+}
+.quoteAuthorDesc{
+    font-style: italic;
+    font-weight: 300;
+}
+.quoteWrapper:after{
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    background: rgba(0,0,0,0.7);
+    z-index: 1;
+}
+.quoteWrapper .container{
+    position: relative;
+    z-index: 2;
+}
+
+.servicesWrapper .paraText{
+    padding-left: 18%;
+    padding-right: 18%;
+    display: inline-block;
+    margin: auto;
+    margin-top: 30px;
+}
+.servicesWrapper .heading2{
+    margin-bottom: 15px;
+}
+
+
+
+.expertiseWrapper2 .paraText{
+    padding-left: 22%;
+    padding-right: 22%;
+    display: inline-block;
+    margin: auto;
+}
+.expertiseList2 img{
+    width: 80px;
+}
+.expertiseList2 li{
+    display: inline-block;
+    margin-top: 50px;
+}
+.expertiseList2 li:first-child{
+    margin-top: 20px;
+}
+.expertiseList2 span{
+    color: #700D10;
+    display: block;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+
+.serviceDescWrapper .paraText2{
+    padding-left: 18%;
+    padding-right: 18%;
+    margin-top: 30px;
+    font-style: italic;
+}
+.serviceDescWrapper .paraText2:first-child{
+    margin-top: 0;
+}
+
+
+.servicesList2{
+    margin-top: 20px;
+}
+.servicesList2 li{
+    display: inline-block;
+    padding: 0 10px;
+    margin-top: 50px;
+    max-width: 20%;
+    vertical-align: top;
+}
+.servicesList2 a{
+    color: #700D10;
+    display: block;
+    font-weight: 600;
+    font-size: 13px;
+    letter-spacing: 2px;
+    padding:0;
+    text-align: center;
+    text-transform: uppercase;
+    height: 50px;
+    overflow: hidden;
+}
+
+
+.serviceIncludeWrapper{
+    background: transparent url('../images/banner/service-include.jpg') no-repeat;
+    background-size: 100%;
+    position: relative;
+}
+.serviceIncludeWrapper:after{
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    background: rgba(250, 249, 247, 0.9);
+    z-index: 1;
+}
+.serviceIncludeWrapper .container{
+    position: relative;
+    z-index: 2;
+}
+.serviceIncludeWrapper .paraText{
+    width: 70%;
+    display: inline-block;
+    margin: auto;
+    margin-top: 30px;
+}
+
+
+.serviceCommonWrapper .paraText{
+    padding-left: 18%;
+    padding-right: 18%;
+}
