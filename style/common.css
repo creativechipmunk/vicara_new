@@ -1,3 +1,163 @@
+.redBtn{
+    background: #700D10;
+    padding: 13px 65px;
+    text-transform: uppercase;
+    color: #ffffff;
+    letter-spacing: 2px;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 30px;
+    display: inline-block;
+    border-radius: 22px;
+}
+.redBtn:hover,
+.redBtn:active,
+.redBtn:focus,
+.redBtn:visited{
+    background: #CBCBCB;
+    color: #3a3a3a;
+}
+.form-control-custom:focus,
+.form-control-custom:hover,
+.form-control-custom:active,
+.form-control-custom:visited{
+    outline: none;
+}
+form.common-form{
+    float: none;
+    margin: auto;
+    max-width: 400px;
+    margin-top: 70px;
+}
+.form-group{
+    padding-bottom: 18px;
+    margin-bottom: 20px;
+    position: relative;
+}
+.form-group label{
+    font-size: 13px;
+    letter-spacing: 2px;
+    color: #700D10;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+}
+.form-control{
+    margin:0;
+}
+.form-control-custom{
+    width: 100%;
+    background: #ffffff;
+    padding: 12px 15px;
+    border: none;
+    font-size: 18px;
+    color: #4a4a4a;
+    box-shadow: none;
+}
+.full-name-input{
+    text-transform: capitalize;
+}
+textarea.form-control-custom{
+    resize: none;
+    height: 320px;
+}
+.errorText{
+    position: absolute;
+    bottom:0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    font-size: 10px;
+    color: #ab1a1e;
+    width: 100%;
+    text-align: left;
+    display: none;
+}
+.errorField .errorText{
+    display: block;
+}
+.charLimit{
+    display: block;
+    text-align: right;
+}
+.formFileWrapper{
+    margin-top: 40px;
+}
+.formFileWrapper .errorText{
+    text-align: center;
+}
+.uploadFileName{
+    position: absolute;
+    bottom:0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    font-size: 10px;
+    color: #ab1a1e;
+    width: 100%;
+    text-align: center;
+    display: none;
+}
+.fileUploaded .uploadFileName{
+    display: block;
+}
+.no-file{
+    font-size: 17px;
+    color: #4a4a4a;
+    line-height: 30px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+}
+.fileBtnView{
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+}
+.fileBtnView .uploadBtn{
+    background: #E6E6E6;
+    padding: 8px 50px;
+    color: #4a4a4a;
+    letter-spacing: 1px;
+    font-size: 16px;
+    font-family: arial;
+    display: inline-block;
+    border-radius: 12px;
+    position: relative;
+    margin: 0;
+    z-index: 1;
+}
+.fileBtnCustom{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    z-index: 2;
+}
+.formBtn{
+    width: 100%;
+    margin-top: 20px;
+}
+.bulletList li {
+    font-size: 17px;
+    color: #4a4a4a;
+    line-height: 30px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    padding-left: 17px;
+    position: relative;
+}
+.bulletList li:before {
+    content:'';
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    border-radius: 5px;
+    background: #4a4a4a;
+    left: 0;
+    top: 12px;
+}
 .navbar{
     background: rgba(236, 235, 232, 0.9);
     border:none;
@@ -99,7 +259,7 @@
     padding-bottom: 80px;
 }
 .gray-bg{
-    background: #FAF9F7;
+    background: #F9F8F6;
 }
 .white-bg{
     background: #ffffff;
@@ -116,7 +276,7 @@
 .heading1:after{
     content: '';
     position: absolute;
-    height: 2px;
+    height: 1px;
     background: #700D10;
     width: 370px;
     bottom: 0;
@@ -139,6 +299,31 @@
     text-transform: capitalize;
     margin-top: 30px;
     margin-bottom: 15px;
+}
+.heading4{
+    position: relative;
+    padding-bottom: 1px;
+    margin-bottom: 45px;
+}
+.heading4 .heading1{
+    padding-bottom: 5px;
+}
+.heading4 .heading1:after{
+    display: none;
+}
+.heading4 .heading2{
+    margin-top: 30px;
+}
+.heading4:after{
+    content: '';
+    position: absolute;
+    height: 1px;
+    background: #700D10;
+    max-width: 230px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
 }
 .paraText {
     font-size: 17px;
@@ -570,10 +755,124 @@
 
 
 
-.careerBlockWrapper {
+.careerBlockWrapper .paraText{
     padding-left: 20%;
     padding-right: 20%;
     display: inline-block;
     margin: auto;
     margin-top: 30px;
+}
+
+
+
+
+.vacanciesWrapper{
+    padding-bottom: 5px;
+}
+.vacanciesList{
+    margin-top: 40px;
+}
+.vacanciesListItem{
+    background: #E7E6E5;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border:solid 3px #F9F8F6;
+}
+.vacanciesListItem .heading1{
+    margin-bottom: 25px;
+}
+.vacanciesListDetails{
+    max-width: 370px;
+    display: inline-block;
+}
+.vacancyDet-header{
+    margin-bottom: 20px;
+}
+.vacancyDet-header p{
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #4a4a4a;
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+.vacancyDet-header p:first-child{
+    margin-right: 50px;
+}
+.vacancyDet-header img{
+    width: 24px;
+    vertical-align: top;
+    margin-top: 2px;
+}
+.vacanciesListItem .applyBtn{
+    background: #CBCBCB;
+    padding: 13px 65px;
+    text-transform: uppercase;
+    color: #3a3a3a;
+    letter-spacing: 2px;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 30px;
+    display: inline-block;
+    border-radius: 22px;
+}
+.vacanciesListItem:hover{
+    background: #cccccc;
+}
+.vacanciesListItem:hover .applyBtn{
+    background: #700D10;
+    color: #ffffff;
+}
+
+
+
+.noVacancyWrapper .redBtn{
+    margin-top: 30px;
+}
+.noVacancyWrapper .heading1{
+    margin-bottom: 40px;
+}
+
+
+
+.careerBack{
+    text-transform: uppercase;
+    font-size: 13px;
+    color: #4a4a4a;
+    letter-spacing: 2px;
+    margin-bottom: 50px;
+    display: inline-block;
+    font-weight: 600;
+}
+
+
+
+.jobDescriptionWrapper .bulletList{
+    padding-left: 18%;
+    padding-right: 18%;
+    text-align: left;
+    margin-top: 40px;
+}
+
+
+.full-address{
+    max-width: 250px;
+    display: inline-block;
+}
+.contact-address{
+    margin-top: 30px;
+}
+.contactAddressTitle{
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #4a4a4a;
+    letter-spacing: 2px;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+.contactAddressTitle img{
+    width: 24px;
+    vertical-align: top;
+    margin-top: 2px;
 }
