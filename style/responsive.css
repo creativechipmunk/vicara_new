@@ -1,0 +1,307 @@
+@media (max-width: 768px) {
+    .bannerWrapper{
+        height: 300px;
+    }
+    .bannerText{
+        width: 80%;
+    }
+    .bannerText--btm{
+        bottom: 25px;
+    }
+    .bannerText a{
+        font-size: 12px;
+    }
+    .bannerText p{
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .section {
+        padding-top: 40px;
+        padding-bottom: 40px;
+        background-size: cover;
+    }
+    .heading1 {
+        font-size: 13px;
+        letter-spacing: 2px;
+        padding: 0 15px 15px 15px;
+        margin-bottom: 20px;
+        line-height: 20px;
+        font-weight: 600;
+    }
+    .heading1:after {
+        max-width: 300px;
+    }
+    .heading2 {
+        font-size: 15px;
+        padding: 0 30px;
+        margin-bottom: 15px;
+    }
+    .heading3{
+        font-size: 14px;
+    }
+    .paraText,
+    .paraText2 {
+        padding: 0 !important;
+        font-size: 12px !important;
+        line-height: 20px !important;
+        margin-top: 15px !important;
+        width: 100% !important;
+    }
+    .expertiseWrapper2 .paraText{
+        margin-top: 0 !important;
+    }
+    .expertiseList,
+    .expertiseList2{
+        margin-top: 30px;
+    }
+    .expertiseList li,
+    .expertiseList2 li {
+        margin-right: 0;
+        display: block;
+        margin-bottom: 30px;
+    }
+    .expertiseList li:last-child,
+    .expertiseList2 li:last-child {
+        margin-bottom: 0px;
+    }
+    .expertiseList img,
+    .expertiseList2 img {
+        width: 60px;
+    }
+    .expertiseList span,
+    .expertiseList2 span {
+        font-size: 12px;
+        margin-top: 10px;
+        font-weight: 600;
+    }
+    .footerHalf{
+        border:none;
+        padding: 20px 0;
+        height: auto;
+    }
+    .joinFooter{
+        border-top: solid 1px #ffffff;
+    }
+    .footerHeading{
+        font-size: 14px;
+        margin-bottom: 5px;
+    }
+    .footerDesc{
+        font-size: 14px;
+    }
+    .footerBtn{
+        margin-top: 10px;
+        padding: 7px 31px;
+        font-size: 12px;
+    }
+    .footerSocial {
+        width: 30px;
+        padding: 5px;
+        margin: 10px 5px 0 5px;
+        height: 30px;
+    }
+    .footerCopyright {
+        background: #F9F8F6;
+        padding: 13px;
+        color: #3a3a3a;
+        font-size: 11px;
+    }
+    .servicesList li,
+    .servicesList2 li,
+    .servicesList3 li {
+        padding: 0;
+        width: 100%;
+        margin-top: 25px;
+        max-width: 100%;
+    }
+    .servicesList2 li,
+    .servicesList3 li {
+        margin-top: 15px;
+    }
+    .servicesList a,
+    .servicesList2 a,
+    .servicesList3 a{
+        margin-bottom: 10px;
+        height: auto;
+        font-size: 11px;
+    }
+    .servicesList p,
+    .servicesList2 p,
+    .servicesList3 p{
+        font-size: 12px;
+    }
+    .commitmentList{
+        margin-top: 0;
+    }
+    .commitmentList li{
+        display: block;
+        margin-right: 0;
+        margin-bottom: 15px;
+    }
+    .commitmentList li:last-child{
+        margin-bottom: 0px;
+    }
+    .commitmentList li a{
+        display: inline-block;
+    }
+    .commitmentList span{
+        margin-top: 0px;
+        font-size: 12px;
+    }
+    .eng-gray-block{
+        margin: 0;
+        max-height: 200px;
+    }
+    .descListContainer {
+        margin-bottom: 40px;
+    }
+    .descListContainer .heading2{
+        margin-bottom: 0;
+    }
+    .vacanciesList {
+        margin-top: 0;
+    }
+    .vacanciesList .heading1{
+        margin-bottom: 10px;
+    }
+    .vacancyDet-header p:first-child {
+        margin-right: 0px;
+    }
+    .vacancyDet-header p{
+        margin-bottom: 0;
+        margin-top: 8px !important;
+    }
+    .vacancyDet-header img {
+        width: 24px;
+        vertical-align: bottom;
+        margin-top: 2px;
+    }
+    .vacanciesListItem .applyBtn {
+        padding: 8px 50px;
+        font-size: 12px;
+        margin-top: 10px;
+    }
+    .vacanciesListItem {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .vacanciesWrapper{
+        padding-bottom: 0px;
+    }
+    form.common-form{
+        margin-top: 30px;
+    }
+    .form-control-custom{
+        font-size: 14px;
+    }
+    .form-group{
+        margin-bottom: 15px;
+    }
+    .full-address{
+        max-width: 100%;
+    }
+    .contactAddressTitle{
+        margin-bottom: 0;
+    }
+    .contactAddressTitle img{
+        vertical-align: bottom;
+    }
+    .contact-address{
+        margin-top: 0px;
+    }
+    .careerBack {
+        font-size: 11px;
+        margin-bottom: 20px;
+    }
+    .jobDescriptionWrapper .bulletList{
+        padding: 0;
+        margin-top: 0;
+    }
+    .bulletList li {
+        font-size: 13px;
+        line-height: 20px;
+        padding-top: 5px;
+    }
+    .navbar-default .navbar-brand {
+        padding: 12px;
+    }
+    .navbar-brand img {
+        width: 60px;
+    }
+    .navbar-default .navbar-toggle {
+        border-color: transparent;
+        margin-right: 8px;
+    }
+    .navbar-default .navbar-toggle:focus,
+    .navbar-default .navbar-toggle:hover,
+    .navbar-default .navbar-toggle:active,
+    .navbar-default .navbar-toggle:visited{
+        outline: none;
+    }
+    .navbar-default .navbar-toggle .icon-bar {
+        background-color: #4a4a4a;
+    }
+    .navbar-toggle .icon-bar {
+        width: 17px;
+    }
+    .navbar-toggle .icon-bar + .icon-bar{
+        margin-top: 2px;
+    }
+    .navbar{
+        min-height: 48px;
+        background: rgba(236, 235, 232, 1);
+    }
+    .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+        background-color: transparent;
+    }
+    .navbar-fixed-top .navbar-collapse{
+        position: fixed;
+        right: 0;
+        width: 80%;
+        background: rgba(236, 235, 232, 0.9);
+        max-height: 100%;
+    }
+    .navbar-fixed-top .navbar-collapse.in{
+        height: 100% !important;
+    }
+    .navbar-default .navbar-nav > li > a{
+        padding: 18px;
+        font-size: 13px;
+    }
+    .navbar-default .navbar-nav > li.active > a:after{
+        width: 90%;
+    }
+    .home-carousel {
+        padding: 0 30px;
+    }
+    .carousel-control{
+        border: solid 15px transparent;
+    }
+    .carousel-control.left{
+        left: -15px;
+        border-right: solid 15px #9c9c9c;
+    }
+    .carousel-control.right{
+        right: -15px;
+        border-left: solid 15px #9c9c9c;
+    }
+    .home-carousel .item img {
+        max-width: 150px;
+        margin: auto;
+    }
+    .carousel-caption{
+        padding: 0 15px;
+        font-size: 12px;
+        line-height: 20px;
+    }
+    .carousel-caption:before{
+        left: 40px;
+    }
+    .carousel-caption:after{
+        right: 40px;
+    }
+    .engagementList img,
+    .engagementWrapper .heading1 + img{
+        max-width: 200px;
+    }
+}

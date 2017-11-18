@@ -17,6 +17,26 @@
     background: #CBCBCB;
     color: #3a3a3a;
 }
+.ghost-btn{
+    background: transparent;
+    padding: 11px 65px;
+    border: solid 1px #700D10;
+    text-transform: uppercase;
+    color: #700D10;
+    letter-spacing: 2px;
+    font-size: 13px;
+    font-weight: 600;
+    margin-top: 40px;
+    display: inline-block;
+}
+.ghost-btn:hover,
+.ghost-btn:active,
+.ghost-btn:focus,
+.ghost-btn:visited{
+    background: transparent;
+    color: #3a3a3a;
+    border: solid 1px #3a3a3a;
+}
 .form-control-custom:focus,
 .form-control-custom:hover,
 .form-control-custom:active,
@@ -201,7 +221,7 @@ textarea.form-control-custom{
     height: 400px;
     background-size: 100%;
 }
-.bannerWrapper:after{
+/*.bannerWrapper:after{
     content: '';
     position: absolute;
     background: rgba(0,0,0,0.4);
@@ -210,15 +230,25 @@ textarea.form-control-custom{
     top: 0;
     left:0;
     z-index: 1;
-}
+}*/
 .bannerWrapper--home{
-    background: transparent url('../images/home-banner.jpeg') no-repeat;
+    background: transparent url('../images/banner/home-banner.jpeg') no-repeat;
     height: 550px;
     background-size: cover;
     background-position: center;
 }
 .bannerWrapper--about{
     background: transparent url('../images/banner/about.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.bannerWrapper--career{
+    background: transparent url('../images/banner/careers.jpeg') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.bannerWrapper--contact{
+    background: transparent url('../images/banner/contact.jpeg') no-repeat;
     background-size: cover;
     background-position: center;
 }
@@ -257,6 +287,7 @@ textarea.form-control-custom{
 .section{
     padding-top: 80px;
     padding-bottom: 80px;
+    overflow: hidden;
 }
 .gray-bg{
     background: #F9F8F6;
@@ -278,7 +309,8 @@ textarea.form-control-custom{
     position: absolute;
     height: 1px;
     background: #700D10;
-    width: 370px;
+    width:100%;
+    max-width: 370px;
     bottom: 0;
     left: 0;
     right: 0;
@@ -358,6 +390,9 @@ textarea.form-control-custom{
 }
 .expertiseList li:last-child{
     margin-right: 0;
+}
+.expertiseList li a{
+    display: inline-block;
 }
 .expertiseList span{
     color: #700D10;
@@ -538,7 +573,7 @@ textarea.form-control-custom{
     margin-top: 90px;
 }
 .engagementList img{
-    max-width: 300px;
+    max-width: 400px;
 }
 .engagementList p{
     width: 50%;
@@ -597,7 +632,6 @@ textarea.form-control-custom{
     position: relative;
     z-index: 2;
 }
-
 .servicesWrapper .paraText{
     padding-left: 18%;
     padding-right: 18%;
@@ -875,4 +909,76 @@ textarea.form-control-custom{
     width: 24px;
     vertical-align: top;
     margin-top: 2px;
+}
+
+
+.home-carousel {
+    padding: 0 100px;
+}
+.home-carousel .item img{
+    max-width: 300px;
+    margin: auto;
+}
+.carousel-caption {
+    font-size: 17px;
+    color: #4a4a4a;
+    line-height: 30px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    text-shadow: none;
+    position: relative;
+    right: auto;
+    left: auto;
+    bottom: auto;
+    margin-top: 40px;
+    padding: 0 20%;
+}
+.carousel-caption:before,
+.carousel-caption:after{
+    content:'"';
+    position: absolute;
+    font-size: 30px;
+    color: #700D10;
+}
+.carousel-caption:before{
+    left: 20%;
+    top: -10px;
+    margin-left: -40px;
+}
+.carousel-caption:after{
+    right: 20%;
+    bottom: -10px;
+    margin-right: -40px;
+}
+.carousel-control{
+    border: solid 35px transparent;
+    background-image: none;
+    height: 0;
+    width: auto;
+    margin: auto;
+}
+.carousel-control:after{
+    content: '';
+    position: absolute;
+    border: solid 35px transparent;
+    background-image: none;
+    height: 0;
+}
+.carousel-control.left{
+    border-right: solid 35px #9c9c9c;
+}
+.carousel-control.right{
+    border-left: solid 35px #9c9c9c;
+}
+.carousel-control.left:after {
+    border-right: solid 35px #ffffff;
+    right: -38px;
+    top: -35px;
+    z-index: 1;
+}
+.carousel-control.right:after {
+    border-left: solid 35px #ffffff;
+    left: -38px;
+    top: -35px;
+    z-index: 1;
 }
